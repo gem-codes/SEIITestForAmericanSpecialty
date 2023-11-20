@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using SEIITestForAmericanSpecialtyProject.Controllers;
+using SEIITestForAmericanSpecialtyProject.Interfaces;
 using SEIITestForAmericanSpecialtyProject.Models;
 using SEIITestForAmericanSpecialtyProject.Services;
 using System;
@@ -15,7 +16,7 @@ namespace SEIITestForAmericanSpecialtyProject.Tests
         public void GetAllPeople_Returns_OkResult()
         {
             // Arrange
-            var mockPersonService = new Mock<PersonService>();
+            var mockPersonService = new Mock<IPersonService>();
             mockPersonService.Setup(service => service.GetAllPeople())
                              .Returns(new List<Person>());
 
@@ -32,7 +33,7 @@ namespace SEIITestForAmericanSpecialtyProject.Tests
         public void GetAllPeople_Returns_InternalServerError_OnException()
         {
             // Arrange
-            var mockPersonService = new Mock<PersonService>();
+            var mockPersonService = new Mock<IPersonService>();
             mockPersonService.Setup(service => service.GetAllPeople())
                              .Throws(new Exception("Simulated error"));
 
@@ -51,7 +52,7 @@ namespace SEIITestForAmericanSpecialtyProject.Tests
         public void AddPerson_Returns_OkResult()
         {
             // Arrange
-            var mockPersonService = new Mock<PersonService>();
+            var mockPersonService = new Mock<IPersonService>();
             mockPersonService.Setup(service => service.AddPerson(It.IsAny<Person>()));
 
             var controller = new PersonController(mockPersonService.Object);
@@ -67,7 +68,7 @@ namespace SEIITestForAmericanSpecialtyProject.Tests
         public void AddPerson_Returns_InternalServerError_OnException()
         {
             // Arrange
-            var mockPersonService = new Mock<PersonService>();
+            var mockPersonService = new Mock<IPersonService>();
             mockPersonService.Setup(service => service.AddPerson(It.IsAny<Person>()))
                              .Throws(new Exception("Simulated error"));
 

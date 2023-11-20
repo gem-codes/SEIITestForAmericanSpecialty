@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z4LpWnVuxOCNve0Udae5rEmasRzsAwThr/uwhsqqdcaBATVxfQp6L/I/U+fU1SDx3gV6sfY0MwuJkJjVtenLmg==",
+  "dgSpecHash": "Icv+iFUhXEEI7Y0sG/J76bX8/9q6BMJBfJeJo2fclEvcXAMhlicNDWmKkK6V7S86kLENnb5pljNG5Jq8FegYog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialtyProject.Tests\\SEIITestForAmericanSpecialtyProject.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialty\\SEIITestForAmericanSpecialtyProject.Tests\\SEIITestForAmericanSpecialtyProject.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dev\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

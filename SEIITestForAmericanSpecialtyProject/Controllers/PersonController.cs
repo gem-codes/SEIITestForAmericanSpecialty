@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SEIITestForAmericanSpecialtyProject.Interfaces;
 using SEIITestForAmericanSpecialtyProject.Models;
 using SEIITestForAmericanSpecialtyProject.Services;
 
@@ -8,9 +9,9 @@ namespace SEIITestForAmericanSpecialtyProject.Controllers
     [Route("api/[controller]")]
     public class PersonController : ControllerBase
     {
-        private readonly PersonService _personService;
+        private readonly IPersonService _personService;
 
-        public PersonController(PersonService personService)
+        public PersonController(IPersonService personService)
         {
             _personService = personService;
         }
@@ -18,9 +19,22 @@ namespace SEIITestForAmericanSpecialtyProject.Controllers
         [HttpGet]
         public IActionResult GetAllPeople()
         {
-            var people = _personService.GetAllPeople();
-            return Ok(people);
+            try
+            {
+                // Your logic to get all people
+                var people = _personService.GetAllPeople();
+                return Ok(people);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception if needed
+                Console.WriteLine(ex.Message);
+
+                // Return a 500 Internal Server Error
+                return StatusCode(500, "Internal Server Error");
+            }
         }
+
 
         [HttpPost]
         public IActionResult AddPerson([FromBody] Person person)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialtyProject\\SEIITestForAmericanSpecialtyProject.csproj": {}
+    "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialty\\SEIITestForAmericanSpecialtyProject\\SEIITestForAmericanSpecialtyProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialtyProject\\SEIITestForAmericanSpecialtyProject.csproj": {
+    "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialty\\SEIITestForAmericanSpecialtyProject\\SEIITestForAmericanSpecialtyProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialtyProject\\SEIITestForAmericanSpecialtyProject.csproj",
+        "projectUniqueName": "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialty\\SEIITestForAmericanSpecialtyProject\\SEIITestForAmericanSpecialtyProject.csproj",
         "projectName": "SEIITestForAmericanSpecialtyProject",
-        "projectPath": "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialtyProject\\SEIITestForAmericanSpecialtyProject.csproj",
+        "projectPath": "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialty\\SEIITestForAmericanSpecialtyProject\\SEIITestForAmericanSpecialtyProject.csproj",
         "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialtyProject\\obj\\",
+        "outputPath": "C:\\Users\\Dev\\source\\repos\\SEIITestForAmericanSpecialty\\SEIITestForAmericanSpecialtyProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

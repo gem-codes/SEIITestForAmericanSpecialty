@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEIITestForAmericanSpecialtyProject", "SEIITestForAmericanSpecialtyProject.csproj", "{AAE56932-CCCA-4ACC-896B-0A58938FCA78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEIITestForAmericanSpecialtyProject.Tests", "..\SEIITestForAmericanSpecialtyProject.Tests\SEIITestForAmericanSpecialtyProject.Tests.csproj", "{E8422D5B-26C6-4657-9543-19002E1C5C5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAE56932-CCCA-4ACC-896B-0A58938FCA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE56932-CCCA-4ACC-896B-0A58938FCA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE56932-CCCA-4ACC-896B-0A58938FCA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE56932-CCCA-4ACC-896B-0A58938FCA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8422D5B-26C6-4657-9543-19002E1C5C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8422D5B-26C6-4657-9543-19002E1C5C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8422D5B-26C6-4657-9543-19002E1C5C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8422D5B-26C6-4657-9543-19002E1C5C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A21CE7A9-8708-458A-8420-EAC94AF03C00}
+	EndGlobalSection
+EndGlobal
